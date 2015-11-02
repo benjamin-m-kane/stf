@@ -2,12 +2,12 @@
 
 1. Login to http://lsd.bskyb.com/horizon using your user sign on credentials:
 
-<img src="res/sky/image07.png" alt="LSD">
+<img src="https://github.com/sky-uk/stf/blob/master/res/sky/image07.png?raw=true" alt="LSD">
 
 The following screen is displayed providing a summary of the server:
-<img src="res/sky/image06.png" alt="LSD">
+<img src="https://github.com/sky-uk/stf/blob/master/res/sky/image06.png" alt="LSD">
 2. Select ‘Instances’ in the left hand menu and click ‘+ Launch Instance’:
-<img src="res/sky/image11.png" alt="LSD">
+<img src="https://github.com/sky-uk/stf/blob/master/res/sky/res/sky/image11.png" alt="LSD">
 
 3. Set the availability zone to ‘AZIV’, provide a Name for the instance and flavor to ‘m1.smaller’. Set ‘Instance Boot Source’ to ‘Boot from image’ and in the drop down menu select the image ‘CoreOS-633.1.0 (400.9 MB).
 
