@@ -1,0 +1,17 @@
+Installing the Dependencies
+
+Open-STF has 14 dependencies installed via docker images, which download, maintain a database of devices and are used to configure the application. These are:
+    stf-app@3100.service
+    stf-auth@3200.service
+    stf-migrate.service
+    stf-processor@1.service
+    stf-reaper.service
+    stf-storage-plugin-apk@3300.service
+    stf-storage-plugin-image@3400.service
+    stf-storage-temp@3500.service
+    stf-triproxy-app.service
+    stf-triproxy-dev.service 
+    rethinkdb.service
+    rethinkdb-proxy-28015.service
+
+Note: if using vim/vi to create each file, press ‘i’ before pasting the code. If this is not performed only trailing characters from the first instance of character ‘i’ will be inserted.
