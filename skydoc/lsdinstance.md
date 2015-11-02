@@ -24,10 +24,18 @@ The following screen is displayed providing a summary of the server:
 
 6. In the ‘Networking Tab’ drag and drop ‘STF-untrusted-3320’ into the ‘Selected Networks’ box and then launch the instance.
 
+<img src="https://github.com/sky-uk/stf/blob/master/res/sky/image15.png?raw=true" alt="LSD">
+
 7. Assign floating IP by selecting ‘more’ > ‘assign floating IP’ for the newly added server in the table. Set the Pool to ‘vlan3320’ and then click ‘Allocate IP’.  Generate a new key and select ‘Associate Floating IP’.
+
+<img src="https://github.com/sky-uk/stf/blob/master/res/sky/image13.png?raw=true" alt="LSD">
 
 8. Test the server by using SSH to access the machine:
 SSH into machine: `ssh –i <key name> <servername>@<YOUR_FLOATING_IP>`
  e.g.  `ssh –i cloud.key core@10.92.71.242`
 
+<img src="https://github.com/sky-uk/stf/blob/master/res/sky/image19.png?raw=true" >
+
 Alternatively ping the floating IP: `ping <YOUR_FLOATING_IP>`
+
+<img src="https://github.com/sky-uk/stf/blob/master/res/sky/image17.png?raw=true" >
