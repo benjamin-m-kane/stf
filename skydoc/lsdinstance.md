@@ -12,6 +12,7 @@ The following screen is displayed providing a summary of the server:
 
 3. Set the availability zone to ‘AZIV’, provide a Name for the instance and flavor to ‘m1.smaller’. Set ‘Instance Boot Source’ to ‘Boot from image’ and in the drop down menu select the image ‘CoreOS-633.1.0 (400.9 MB).
 
+<img src="https://github.com/sky-uk/stf/blob/master/res/sky/image08.png?raw=true" alt="LSD">
 
 4. Select the access and security tab and click ‘+’ to add a new key pair. 
 
