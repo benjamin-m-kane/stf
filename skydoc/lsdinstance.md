@@ -16,7 +16,11 @@ The following screen is displayed providing a summary of the server:
 
 4. Select the access and security tab and click ‘+’ to add a new key pair. 
 
+<img src="https://github.com/sky-uk/stf/blob/master/res/sky/image12.png?raw=true" alt="LSD">
+
 5. Provide a key pair name. Open a terminal and enter the command `ssh-keygen -t rsa -f cloud.key`. Enter `cat cloud.key.pub` and copy the key text into the ‘Public Key’ box.
+
+<img src="https://github.com/sky-uk/stf/blob/master/res/sky/image19.png?raw=true" alt="LSD">
 
 6. In the ‘Networking Tab’ drag and drop ‘STF-untrusted-3320’ into the ‘Selected Networks’ box and then launch the instance.
 
